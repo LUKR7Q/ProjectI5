@@ -1,4 +1,4 @@
-<h1 align="center">프로젝트 제목 👍</h1>
+<h1 align="center">스마트 물류 자동화 시스템 👍</h1>
 
 
 <center>
@@ -28,6 +28,24 @@
 ``````
 
 
+## 📌 기술 선정 이유
+
+```sh
+React 
+=> 많은 사람들이 사용하고 있음.
+
+Springboot
+=>
+
+RasberryPi3(python)
+=>
+
+AI(yolo5)
+=>
+```
+
+
+
 ## 📌 프로젝트 목표
 
 ```sh
@@ -37,16 +55,26 @@
 
 ## 🔍 Overview
 
-### 1. 사용자 회원 가입 및 로그인 기능(토큰 인증 방식)
+### 1. QR 코드로 물류 인식
 
 <center>
     <img src="./img/pic2.png" />
 </center>
-JWT를 이용한 토큰 인증 방식
+yolo5 AI가 탑재된 RasberryPi 카메라 모듈로 
+상품의 QR코드를 인식한다.
 
 <br>
 
-### 2. 게시판 기능
+### 2. 프론트엔드에서 IoT 장비 제어
+
+<center>
+    <img src="./img/pic1.png" />
+</center>
+어떤 어떤 어떤 걸 작성하는 게시판 기능
+
+<br>
+
+### 3. 프론트엔드에서 DB에 저장된 상품목록 수정 및 삭제 가능
 
 <center>
     <img src="./img/pic1.png" />
@@ -59,8 +87,10 @@ JWT를 이용한 토큰 인증 방식
 ## System Architecture
 
 <center>
-    <img src="./img/pic2.png" />
+    <img src="./img/infra.png" />
+    
 </center>
+
 대용량 트래픽을 고려한 서버 이중화
 
 <br>
@@ -69,23 +99,23 @@ JWT를 이용한 토큰 인증 방식
 
 ## 🔧 각 프로젝트 상세 설명
 
-### [프론트 엔드 github](http://www.naver.com) <- 클릭하면 이동됩니다!
+### [프론트 엔드 github](https://github.com/LUKR7Q/frontI5) <- 클릭하면 이동됩니다!
 
-### [백 엔드 github](http://www.naver.com) <- 클릭하면 이동됩니다!
+### [백 엔드 github](https://github.com/LUKR7Q/backI5) <- 클릭하면 이동됩니다!
 
-### [인공지능 github](http://www.naver.com) <- 클릭하면 이동됩니다!
+### [인공지능 github](https://github.com/LUKR7Q/AIserverI5) <- 클릭하면 이동됩니다!
 
-### [IoT github](http://www.naver.com) <- 클릭하면 이동됩니다!
+### [IoT github](https://github.com/LUKR7Q/IoTI5) <- 클릭하면 이동됩니다!
 
 
 ## 🤼‍♂️팀원
 
-Team Leader : 🐯**홍길동**
+Team Leader : 🐯**김용범**
 
-Backend : 🐶 **김철수**
+Backend : 🐶 **유창훈**
 
-Backend : 🐺 **박철수**
+Frontend : 🐱 **김용범**
 
-Frontend : 🐱 **이철수**
+인공지능 : 🦁 **유창훈**
 
-인공지능 : 🦁 **최철수**
+IoT : 🐺 **박이건**
